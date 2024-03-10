@@ -1,6 +1,22 @@
 # Specifies intentionally untracked files to ignore when using Git
 # http://git-scm.com/docs/gitignore
 
+
+# Compiled Files
+*.class
+*.jar
+*.apk
+*.dex
+
+# Build Folders
+/platforms/
+/android/.gradle
+/android/gradle
+
+
+/plugins/
+/www/
+
 *~
 *.sw[mnpcod]
 .tmp
